@@ -4,7 +4,6 @@ WORKDIR /src
 
 COPY . .
 
-# install and build
 RUN npm install
 RUN npm install nodemon
 
